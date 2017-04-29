@@ -13,7 +13,7 @@ var friends = [
       "5",
       "1",
       "2",
-      "5",
+      "3",
       "4",
       "1"
     ]
@@ -39,14 +39,14 @@ var friends = [
       "photo": "http://www.natalieportman.com/wp-content/uploads/2016/03/potw2.jpg",
       "scores": [
       "1",
+      "2",
+      "1",
+      "1",
+      "2",
       "1",
       "1",
       "1",
-      "1",
-      "1",
-      "1",
-      "1",
-      "1",
+      "2",
       "1"
     ]
   },
@@ -81,7 +81,103 @@ var friends = [
       "3",
       "3"
     ]
-  }
+  },
+      {
+      "name": "Geri",
+      "photo": "https://frostsnow.com/uploads/biography/2015/11/25/geri-halliwell.jpg",
+      "scores": [
+      "3",
+      "4",
+      "3",
+      "4",
+      "3",
+      "4",
+      "3",
+      "4",
+      "3",
+      "4"
+    ]
+  }, 
+      {
+      "name": "Justin",
+      "photo": "http://img1.rnkr-static.com/list_img_v2/13649/1973649/C480/11-celebrities-born-to-teenage-parents-u1.jpg",
+      "scores": [
+      "2",
+      "4",
+      "3",
+      "2",
+      "3",
+      "2",
+      "3",
+      "4",
+      "3",
+      "2"
+    ]
+  },
+      {
+      "name": "Mark",
+      "photo": "http://sizzlingsuperstars.com/wp-content/uploads/2016/06/Mark-Wahlberg-4.jpg",
+      "scores": [
+      "2",
+      "4",
+      "3",
+      "2",
+      "3",
+      "3",
+      "3",
+      "4",
+      "3",
+      "2"
+    ]
+  },  
+      {
+      "name": "Megan",
+      "photo": "http://www.wonderslist.com/wp-content/uploads/2013/05/Megan-Fox-Without-Makeup.jpg",
+      "scores": [
+      "2",
+      "1",
+      "1",
+      "2",
+      "3",
+      "1",
+      "3",
+      "2",
+      "1",
+      "2"
+    ]
+  }, 
+      {
+      "name": "Beyonce",
+      "photo": "http://ugc-01.cafemomstatic.com/gen/constrain/500/500/80/2015/10/30/17/5v/ak/poujbxyz4s.jpg",
+      "scores": [
+      "1",
+      "2",
+      "3",
+      "2",
+      "3",
+      "3",
+      "3",
+      "2",
+      "3",
+      "1"
+    ]
+  },
+      {
+      "name": "Try Again!",
+      "photo": "http://www.funcage.com/blog/wp-content/uploads/2013/04/30-Female-Celebrities-with-Beards-030-550x586.jpg",
+      "scores": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  }     
 ]
 
 module.exports = friends; //makes table data available to other pages
