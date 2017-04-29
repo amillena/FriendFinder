@@ -28,10 +28,6 @@ module.exports = function(app){
 
 
       for (var k = 0; k < 2; k++ ){
-        
-        //console.log("someone did " + friendsData[i].scores[k]);
-        //console.log("you entered " +  req.body.scores[k]);
-        //console.log("you differed by " + Math.abs(friendsData[i].scores[k] - req.body.scores[k]) );
 
         totalDifference = totalDifference + Math.abs(friendsData[i].scores[k] - req.body.scores[k]);
 

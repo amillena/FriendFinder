@@ -16,7 +16,7 @@ module.exports = function(app){
 	});
 
 	app.get('/all', function(req, res){
-		//loads the results page
+		//loads the all friends page
 		res.sendFile(path.join(__dirname + '/../public/all.html'));
 	});
 	//if no matching route found this defaults
